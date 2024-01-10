@@ -16,6 +16,14 @@
   mengurangi kemacetan, dan menciptakan pengaturan waktu lampu lalu lintas yang lebih efisien sesuai dengan kondisi lalu lintas yang berubah-ubah.
 </p>
 
+<h2>Datasets</h2>
+<p>
+  Dataset yang digunakan dalam proyek ini berasal dari CCTV Jogja, yang dapat diakses secara online melalui tautan berikut: 
+  <a href=https://cctv.jogjakota.go.id/home>https://cctv.jogjakota.go.id</a>. Pengumpulan dataset dilakukan dengan tangkap layar dari CCTV Jogja sehingga diperoleh 
+  total 700 gambar, yang mencakup dua kelas, yaitu mobil dan motor. Untuk mempersiapkan dataset sebelum dilakukan pelatihan model, kami melakukan proses anotasi gambar
+  menggunakan platform Roboflow. Selain itu, dilakukan pula proses augmentasi dengan Roboflow untuk menambah variasi dataset. Dengan demikian, dataset yang 
+  telah selesai diolah dan diannotasi siap digunakan untuk proses pelatihan.
+</p>
 
 <ul>
   <li>Download model: <br>
