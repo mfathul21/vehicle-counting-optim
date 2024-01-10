@@ -36,17 +36,19 @@
   model Faster R-CNN. <br>
   
   <figure>
-      <img src="assets/arsitektur_model.jpg" alt="faster-rcnn model modified" width="350">
+      <img src="assets/arsitektur_model.jpg" alt="faster-rcnn model modified" width="450">
       <figcaption>
           Faster-RCNN Model Modified
       </figcaption>
-  </figure>
+  </figure> <br>
 
-</p>
-
-<ul>
+  Modifikasi yang telah dilakukan pada model Faster-RCNN adalah dengan menambahkan backbone dari model resnet-18 (convolutional, batchnormal, relu, maxpool, layer1, 
+  layer2, layer3, layer4) dengan modfikasi lanjutan penambahan layer extra basic blocks pada setiap layer 1 2 3 4 pada backbone tersebut. <br>
+  <ul>
   <li>Download model: <br>
     https://drive.google.com/drive/folders/1L419RCGY0zDCPojnsGmZsjhzgsRS1UyS?usp=sharing</li>
-</ul>
+  </ul>
+</p>
+
 
 
