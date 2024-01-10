@@ -55,7 +55,7 @@
   
 </p>
 
-<h2>Deployment with Streamlit</h2>
+<h2>Deployment</h2>
 <p>
   
 </p>
