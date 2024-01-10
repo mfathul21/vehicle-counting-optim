@@ -33,22 +33,30 @@
   kelemahan atau tantangan berupa penggunaan object detection dengan pembelajaran mendalam dua tahap dan karenanya. Ini memiliki langkah region proposal yang membuatnya
   lebih lambat dibandingkan dengan model lain bahkan dengan mAP yang sama. Oleh karena itu, disini kami menggunakan modifikasi pada backbone dengan menggunakan resnet18 yang
   memiliki efisiensi  komputasional yang lebih baik dibandingkan arsitektur yang lebih deep seperti resnet-50 atau resnet-101 yang juga biasa digunakan sebagai backbone pada
-  model Faster R-CNN. <br>
+  model Faster R-CNN. <br />
   
   <figure>
-      <img src="assets/arsitektur_model.jpg" alt="faster-rcnn model modified" width="450">
+      <img src="assets/arsitektur_model.jpg" alt="faster-rcnn model modified" width="500">
       <figcaption>
           Faster-RCNN Model Modified
       </figcaption>
-  </figure> <br>
+  </figure> <br />
 
   Modifikasi yang telah dilakukan pada model Faster-RCNN adalah dengan menambahkan backbone dari model resnet-18 (convolutional, batchnormal, relu, maxpool, layer1, 
-  layer2, layer3, layer4) dengan modfikasi lanjutan penambahan layer extra basic blocks pada setiap layer 1 2 3 4 pada backbone tersebut. <br>
+  layer2, layer3, layer4) dengan modfikasi lanjutan penambahan layer extra basic blocks pada setiap layer 1, 2, 3, dan 4 pada backbone tersebut. <br />
   <ul>
   <li>Download model: <br>
     https://drive.google.com/drive/folders/1L419RCGY0zDCPojnsGmZsjhzgsRS1UyS?usp=sharing</li>
   </ul>
 </p>
 
+<h2>Fuzzy Logic</h2>
+<p>
+  
+</p>
 
+<h2>Deployment with Streamlit</h2>
+<p>
+  
+</p>
 
