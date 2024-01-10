@@ -31,8 +31,8 @@
   task deteksi objek kendaraan memiliki performa akurasi yang tinggi dalam tugas object detection serta juga memiliki kemampuan untuk mendeteksi objek dengan berbagai skala
   secara efektif menggunakan piramida fitur yang menurut kami cukup sesuai dengan task yang ingin kami selesaikan. terlepas dari itu model Faster R-CNN juga memiliki
   kelemahan atau tantangan berupa penggunaan object detection dengan pembelajaran mendalam dua tahap dan karenanya. Ini memiliki langkah region proposal yang membuatnya
-  lebih lambat dibandingkan dengan model lain bahkan dengan mAP yang sama. Oleh karena itu, disini kami menggunakan modifikasi pada backbone dengan menggunakan resnet18 yang
-  memiliki efisiensi  komputasional yang lebih baik dibandingkan arsitektur yang lebih deep seperti resnet-50 atau resnet-101 yang juga biasa digunakan sebagai backbone pada
+  lebih lambat dibandingkan dengan model lain bahkan dengan mAP yang sama. Oleh karena itu, disini kami menggunakan modifikasi pada backbone dengan menggunakan ResNet-18 yang
+  memiliki efisiensi  komputasional yang lebih baik dibandingkan arsitektur yang lebih deep seperti ResNet-50 atau ResNet-101 yang juga biasa digunakan sebagai backbone pada
   model Faster R-CNN. <br />
   
   <figure>
@@ -42,7 +42,7 @@
       </figcaption>
   </figure> <br />
 
-  Modifikasi yang telah dilakukan pada model Faster-RCNN adalah dengan menambahkan backbone dari model resnet-18 (convolutional, batchnormal, relu, maxpool, layer1, 
+  Modifikasi yang telah dilakukan pada model Faster-RCNN adalah dengan menambahkan backbone dari model ResNet-18 (convolutional, batchnormal, relu, maxpool, layer1, 
   layer2, layer3, layer4) dengan modfikasi lanjutan penambahan layer extra basic blocks pada setiap layer 1, 2, 3, dan 4 pada backbone tersebut. <br />
   <ul>
   <li>Download model: <br>
@@ -60,3 +60,7 @@
   
 </p>
 
+<h2>Kesimpulan</h2>
+<p>
+  Mobilitas yang tinggi dan kepadatan penduduk di daerah perkotaan menyebabkan meningkatnya jumlah kendaraan. Dan persimpangan jalan menjadi titik rawan kemacetan lalu lintas. Maka untuk mengatasi masalah tersebut, tim kami menginisiasi proyek <strong>"TRAFFIC LIGHT OPTIMIZATION USING VEHICLE COUNTING & FUZZY LOGIC"</strong> dengan memanfaatkan teknologi AI yakni Object Detection yang dapat menghitung kendaraan di persimpangan untuk manajemen lalu lintas yang dapat mengoptimalkan perencanaan waktu siklus lampu lalu lintas pada persimpangan menggunakan fuzzy logic.
+</p>
