@@ -2,7 +2,14 @@
 
 ## Project Description
 
-This project aims to optimize traffic light control at intersections by leveraging object detection, specifically using a modified Faster R-CNN model with a ResNet-18 backbone. The optimization is achieved through the integration of vehicle counting and fuzzy logic to dynamically adjust traffic light timings based on real-time traffic conditions.
+This project aims to optimize traffic light control at intersections by leveraging object detection, specifically using a modified Faster R-CNN model with a ResNet-18 backbone. The optimization is achieved through the integration of vehicle counting and fuzzy logic to dynamically adjust traffic light timings based on real-time traffic conditions. <br>
+
+  <figure>
+      <img src="assets/arsitektur_model.jpg" alt="faster-rcnn model modified" width="500">
+      <figcaption>
+          Faster-RCNN Model Modified
+      </figcaption>
+  </figure> <br />
 
 ## Features
 
