@@ -7,7 +7,7 @@ This project aims to optimize traffic light control at intersections by leveragi
   <figure>
       <img src="assets/arsitektur_model.jpg" alt="faster-rcnn model modified" width="500">
       <figcaption>
-          Faster-RCNN Model Modified
+          Faster R-CNN model with a ResNet-18 backbone
       </figcaption>
   </figure> <br />
 
