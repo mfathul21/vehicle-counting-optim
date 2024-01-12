@@ -12,7 +12,10 @@ This project aims to optimize traffic light control at intersections by leveragi
 
 ## Dataset Sources
 
-Collected data from <a href=https://cctv.jogjakota.go.id/home>https://cctv.jogjakota.go.id</a> then annotate with roboflow and augmentation. Dataset have 2 class, it is motorcycle and car
+The dataset was collected by capturing screenshots from various CCTV points at intersections. These images were then annotated using Roboflow, and augmentation techniques were applied. The dataset comprises two classes: motorcycles and cars.
+
+**CCTV Sources:**
+[click here](https://cctv.jogjakota.go.id)
 
 ## Model Output
 
@@ -23,24 +26,26 @@ The trained model outputs can be found in the `model/` directory. Below are the 
 ## Usage
 
 1. **Installation:**
-   - Clone the repository: `git clone https://github.com/your_username/traffic-light-optimization.git`
+   - Clone the repository: `git clone https://github.com/mfathul21/vehicle-counting-optim.git`
    - Install dependencies: `pip install -r requirements.txt`
-   - Download model from google drive in README.md file
+   - Download the model from the Google Drive link provided in the README.md file.
 
 2. **Run the Application:**
-   - Navigate to the project directory: `cd traffic-light-optimization`
-   - Run the application: `python app.py`
+   - Navigate to the project directory: `cd vehicle-counting-optim`
+   - Run the Streamlit application: `streamlit run main.py`
 
 3. **Input:**
-   - Provide input images or videos to the application.
+   - For testing purposes, it is recommended to use [CCTV](https://cctv.jogjakota.go.id) images from Pingit 1 Street. 
+   - Alternatively, you can use images or videos from the provided `input` folder. Please note that a `mask.png` file has been added to `main.py`, so modification may be required if using other inputs.
 
 4. **Output:**
-   - The application will display the optimized traffic light control and relevant statistics.
+   - The application will display the optimized traffic light control and relevant statistics, including the count of cars and motorcycles, along with the duration of traffic lights based on fuzzy logic.
 
 ## Contributors
 
-- Your Name (@your_username)
-- Collaborator Name (@collaborator_username)
+- Muhammad Fathul Radhiansyah (@mfathul21)
+- Novia Putri Bahirah (@noviaptr)
+- Al Ahmad Syah Huud S. (@alahmadss)
 
 ## License
 
