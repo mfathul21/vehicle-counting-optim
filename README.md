@@ -53,7 +53,3 @@ The trained model outputs can be found in the `model/` directory. Below are the 
 - Muhammad Fathul Radhiansyah (@mfathul21)
 - Novia Putri Bahirah (@noviaptr)
 - Al Ahmad Syah Huud S. (@alahmadss)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
