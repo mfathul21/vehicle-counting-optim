@@ -47,9 +47,6 @@ The trained model outputs can be found in the `model/` directory. Below are the 
 
 4. **Output:**
    - The application will display the optimized traffic light control and relevant statistics, including the count of cars and motorcycles, along with the duration of traffic lights based on fuzzy logic.
-   -  <figure>
-      <img src="assets/deploy.png" alt="deployment with streamlit" width="500">
-      </figure> <br />
 
 ## Contributors
 
