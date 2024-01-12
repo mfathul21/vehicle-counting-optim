@@ -46,11 +46,10 @@ The trained model outputs can be found in the `model/` directory. Below are the 
    - Alternatively, you can use images or videos from the provided `input` folder. Please note that a `mask.png` file has been added to `main.py`, so modification may be required if using other inputs.
 
 4. **Output:**
-   - The application will display the optimized traffic light control and relevant statistics, including the count of cars and motorcycles, along with the duration of traffic lights based on fuzzy logic.<br>
-
-  <figure>
+   - The application will display the optimized traffic light control and relevant statistics, including the count of cars and motorcycles, along with the duration of traffic lights based on fuzzy logic.
+   -  <figure>
       <img src="assets/deploy.png" alt="deployment with streamlit" width="500">
-  </figure> <br />
+      </figure> <br />
 
 ## Contributors
 
