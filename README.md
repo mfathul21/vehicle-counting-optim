@@ -52,4 +52,5 @@ The trained model outputs can be found in the `model/` directory. Below are the 
 
 - Muhammad Fathul Radhiansyah (@mfathul21)
 - Novia Putri Bahirah (@noviaptr)
+- Duana Puspitaningrum (@DuanaPuspitaningrum)
 - Al Ahmad Syah Huud S. (@alahmadss)
